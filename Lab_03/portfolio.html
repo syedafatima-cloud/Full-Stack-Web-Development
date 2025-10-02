@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Personal profile page showcasing my skills, hobbies, and contact information." />
+  <title>Syeda Fatima Faisal - Personal Profile</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="portfolio.js"></script>
+  <style>
+   
+  </style>
+</head>
+<body>
+
+  <!-- Bootstrap Navigation Bar with Hamburger Menu -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">SFF</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobbies">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <img src="pfp.jfif" alt="Syeda Fatima Faisal Profile Photo" class="profile-photo">
+        <h1>Syeda Fatima Faisal</h1>
+        <p class="header-title">Software Developer</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Fixed Download Button -->
+  <button class="btn btn-light download-btn" data-bs-toggle="modal" data-bs-target="#downloadModal">
+    <i class="fas fa-download"></i> Download Resume
+  </button>
+
+  <!-- About Me Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <h2 class="section-title">About Me</h2>
+          <p class="about-content">
+            Hello! I'm Syeda Fatima Faisal, a passionate software developer with a love for creating elegant solutions to complex problems. With over 5 years of experience in web development, I specialize in building responsive and user-friendly applications using modern technologies like React, TypeScript, and Node.js. I believe in writing clean, maintainable code and continuously learning new technologies to stay ahead in this ever-evolving field. When I'm not coding, you'll find me exploring new design patterns, contributing to open-source projects, or mentoring aspiring developers. My goal is to create digital experiences that make a positive impact on people's lives.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2 class="E-Commerce Platform">My Projects</h2>
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card project-card">
+            <div class="project-image">
+              <img src="ecom2.jpg" alt="E-Commerce Platform">
+            </div>
+            <div class="card-body">
+              <h3>E-Commerce Platform</h3>
+              <p>A full-stack online shopping platform with cart, payment integration, and admin dashboard.</p>
+              <div class="tech-stack">
+                <span class="badge">React</span>
+                <span class="badge">Node.js</span>
+                <span class="badge">MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="#" class="btn-link"><i class="fab fa-github"></i> Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card project-card">
+            <div class="project-image">
+              <img src="tsk.PNG" alt="Task Management App">
+            </div>
+            <div class="card-body">
+              <h3>Task Management App</h3>
+              <p>A collaborative project management tool with real-time updates and team collaboration features.</p>
+              <div class="tech-stack">
+                <span class="badge">TypeScript</span>
+                <span class="badge">Firebase</span>
+                <span class="badge">Material-UI</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="#" class="btn-link"><i class="fab fa-github"></i> Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card project-card">
+            <div class="project-image">
+              <img src="dv.PNG" alt="Data Visualization Dashboard">
+            </div>
+            <div class="card-body">
+              <h3>Data Visualization Dashboard</h3>
+              <p>Interactive analytics dashboard with charts, graphs, and real-time data visualization.</p>
+              <div class="tech-stack">
+                <span class="badge">D3.js</span>
+                <span class="badge">React</span>
+                <span class="badge">Express</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="#" class="btn-link"><i class="fab fa-github"></i> Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card project-card">
+            <div class="project-image">
+              <img src="pb.PNG" alt="Personal Blog Platform">
+            </div>
+            <div class="card-body">
+              <h3>Personal Blog Platform</h3>
+              <p>A modern blogging platform with markdown support, comments, and social sharing features.</p>
+              <div class="tech-stack">
+                <span class="badge">Next.js</span>
+                <span class="badge">PostgreSQL</span>
+                <span class="badge">Tailwind</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="#" class="btn-link"><i class="fab fa-github"></i> Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card project-card">
+            <div class="project-image">
+              <img src="wf.PNG" alt="Weather Forecast App">
+            </div>
+            <div class="card-body">
+              <h3>Weather Forecast App</h3>
+              <p>Real-time weather application with 7-day forecast, location tracking, and weather alerts.</p>
+              <div class="tech-stack">
+                <span class="badge">React Native</span>
+                <span class="badge">API</span>
+                <span class="badge">Redux</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="#" class="btn-link"><i class="fab fa-github"></i> Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card project-card">
+            <div class="project-image">
+              <img src="ai.PNG" alt="AI Chatbot Assistant">
+            </div>
+            <div class="card-body">
+              <h3>AI Chatbot Assistant</h3>
+              <p>Intelligent chatbot with natural language processing and context-aware responses.</p>
+              <div class="tech-stack">
+                <span class="badge">Python</span>
+                <span class="badge">TensorFlow</span>
+                <span class="badge">Flask</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="#" class="btn-link"><i class="fab fa-github"></i> Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies Section with Bootstrap Grid -->
+  <section id="hobbies" class="hobbies-section">
+    <div class="container">
+      <h2 class="section-title">My Hobbies</h2>
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card hobby-card">
+            <div class="card-body text-center">
+              <i class="fas fa-code"></i>
+              <h3>Coding</h3>
+              <p>Building side projects and exploring new programming languages and frameworks</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card hobby-card">
+            <div class="card-body text-center">
+              <i class="fas fa-book"></i>
+              <h3>Reading</h3>
+              <p>Enjoying tech blogs, programming books, and science fiction novels</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card hobby-card">
+            <div class="card-body text-center">
+              <i class="fas fa-paint-brush"></i>
+              <h3>Design</h3>
+              <p>Creating beautiful UI/UX designs and experimenting with digital art</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card hobby-card">
+            <div class="card-body text-center">
+              <i class="fas fa-camera"></i>
+              <h3>Photography</h3>
+              <p>Capturing moments and landscapes through my camera lens</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card hobby-card">
+            <div class="card-body text-center">
+              <i class="fas fa-hiking"></i>
+              <h3>Traveling</h3>
+              <p>Exploring new places, cultures, and trying different cuisines</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card hobby-card">
+            <div class="card-body text-center">
+              <i class="fas fa-music"></i>
+              <h3>Music</h3>
+              <p>Listening to various genres and attending live concerts</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section with Bootstrap Form Components -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="section-title">Get In Touch</h2>
+          
+          <div class="success-message" id="successMessage">
+            <i class="fas fa-check-circle"></i> Thank you! Your message has been sent successfully.
+          </div>
+          
+          <form id="contactForm" novalidate>
+            <div class="mb-4">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+              <div class="error-message" id="nameError">Name cannot be empty.</div>
+            </div>
+            
+            <div class="mb-4">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+              <div class="error-message" id="emailError">Please enter a valid email address with @ and a domain.</div>
+            </div>
+            
+            <div class="mb-4">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="6" placeholder="Write your message here..."></textarea>
+              <div class="error-message" id="messageError">Message must be at least 10 characters long.</div>
+            </div>
+            
+            <button type="submit" class="submit-button">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-link" aria-label="LinkedIn Profile">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/yourprofile" target="_blank" class="social-link" aria-label="GitHub Profile">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="https://twitter.com/yourprofile" target="_blank" class="social-link" aria-label="Twitter Profile">
+          <i class="fab fa-twitter"></i>
+          <span>Twitter</span>
+        </a>
+        <a href="mailto:syedafatima@example.com" class="social-link" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+      <p class="footer-text">© 2025 Syeda Fatima Faisal. All rights reserved.</p>
+      <p class="footer-text">Built with passion and dedication.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Modal for Download Confirmation -->
+  <div class="modal fade" id="downloadModal" tabindex="-1" aria-labelledby="downloadModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="downloadModalLabel">Download Resume</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Are you sure you want to download the resume PDF?</p>
+          <p class="text-muted mb-0"><small>File: Syeda_Fatima_Faisal_Resume.pdf</small></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary" onclick="confirmDownload()">Confirm Download</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  
+  <script>
+    
+  </script>
+
+</body>
+</html>
