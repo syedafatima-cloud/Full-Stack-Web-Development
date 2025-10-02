@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Shipping Address Section -->
+    <section class="shipping-address">
+      <h2>Shipping Address</h2>
+      <form>
+        <label>Email Address *</label>
+        <input type="email" required>
+
+        <div class="row">
+          <div>
+            <label>First Name *</label>
+            <input type="text" required>
+          </div>
+          <div>
+            <label>Last Name *</label>
+            <input type="text" required>
+          </div>
+        </div>
+
+        <label>Street Address *</label>
+        <input type="text" required>
+
+        <div class="row">
+          <div>
+            <label>Country *</label>
+            <select required>
+              <option>United States</option>
+              <option>Canada</option>
+            </select>
+          </div>
+          <div>
+            <label>City *</label>
+            <input type="text" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label>Zip/Postal Code *</label>
+            <input type="text" required>
+          </div>
+          <div>
+            <label>State/Province *</label>
+            <select required>
+              <option value="">Select a state</option>
+              <option>California</option>
+              <option>Texas</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label>Company</label>
+            <input type="text">
+          </div>
+          <div>
+            <label>Phone Number *</label>
+            <input type="text" required>
+          </div>
+        </div>
+
+        <div class="checkboxes">
+          <label><input type="checkbox"> Create account</label>
+          <label><input type="checkbox" checked> My billing and shipping address are the same</label>
+        </div>
+      </form>
+
+      <div class="shipping-methods">
+        <h3>Shipping Methods</h3>
+        <label><input type="radio" name="shipping" checked> $0.00 - Fixed (Flat Rate)</label><br>
+        <label><input type="radio" name="shipping"> $0.00 - Table Rate (Best Way)</label>
+      </div>
+    </section>
+
+    <!-- Order Summary Section -->
+    <section class="order-summary">
+      <h2>Order Summary</h2>
+      <div class="cart-item">
+        <div class="image-container">
+        <img src="Bagpack.jfif" alt="Strive Shoulder Pack">
+        </div>
+        <div class="details">
+          <p>Strive Shoulder Pack</p>
+          <div class="qty">
+            <button class="minus">-</button>
+            <input type="text" value="2">
+            <button class="plus">+</button>
+          </div>
+          <p class="subtotal">$64.00</p>
+        </div>
+      </div>
+
+      <div class="cart-item">
+        <div class="image-container">
+        <img src="Waterbottle.jfif" alt="Affirm Water Bottle">
+         </div>
+        <div class="details">
+          <p>Affirm Water Bottle</p>
+          <div class="qty">
+            <button class="minus">-</button>
+            <input type="text" value="1">
+            <button class="plus">+</button>
+          </div>
+          <p class="subtotal">$7.00</p>
+        </div>
+      </div>
+
+      <div class="cart-item">
+        <div class="image-container">
+        <img src="Sweatshirt.jfif" alt="Hollister Backyard Sweatshirt">
+        </div>
+        <div class="details">
+          <p>Hollister Backyard Sweatshirt</p>
+          <button class="toggle-details">View Details</button>
+          <div class="extra-details">
+            <p>Color: White</p>
+            <p>Size: L</p>
+          </div>
+          <div class="qty">
+            <button class="minus">-</button>
+            <input type="text" value="2">
+            <button class="plus">+</button>
+          </div>
+          <p class="subtotal">$52.00</p>
+        </div>
+      </div>
+
+      <div class="cart-total">
+        <p>Cart Subtotal: $123.00</p>
+        <p>Shipping: Not yet calculated</p>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
